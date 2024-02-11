@@ -1,10 +1,11 @@
 html {
     box-sizing: border-box;
+    
     text-align: justify;
 }
 
-header{background-color: bisque;
-
+header{
+    background-color: bisque;
 }
 
 *::before,
@@ -17,19 +18,40 @@ a{
     text-decoration: none;
 }
 
-img{
-    max-width: 100%;
+.center-pic{
+    display:block;
+    margin: auto;
+    width: 500px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-image: url(image/image1.webp);
 }
 
-.center-pic{
-display:block;
-margin:auto;
+.center-pic1{
+    display:block;
+    margin: auto;
+    width: 500px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-image: url(image/tsveta.jpg);
+
+}
+
+.center-pic2{
+    display:block;
+    margin: auto;
+    width: 500px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-image: url(image/glaz.jpg);
+
 }
 
 body{
     font-family: Arial, Verdana, sans-serif;
     padding: 0px 40px;
     font-family: Bradley Hand, cursive;  
+    max-width: 100%;
 }
 
 .h1{
@@ -40,12 +62,11 @@ body{
 
 .h2{
     font-family: Bradley Hand, cursive;
-
     text-align:center;
     justify-content: center;
 }
 
-h3{
+.h3{
     font-family: Bradley Hand, cursive;
     text-align:center;
     justify-content: center;
